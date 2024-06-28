@@ -6,4 +6,13 @@ A TWISTER experiment is comprised of four experimental runs of equal duration: A
 
 Consequently, voxels can be embedded in a two dimensional space according to the temporal consistency along the two twisted stimulus dimensions, as reflected in the correlation coefficients between time-series. A brain region whose time-series during run A1 is more consistent (i.e., has higher correlation) with its activation pattern during run A2 than during run B1 is more sensitive to the first dimension (A vs. B) than to the second dimension (1 vs. 2). Similarly, a brain region whose time-series during run B2 is more consistent with its activation pattern during run A2 than during run B1 is more sensitive to the second dimension (1 vs. 2) and less to the first (A vs. B).
 
-This repository includes the analysis tools for comparing the similarity between voxel time-courses in different TWISTER runs.
+This repository includes the analysis tools for comparing and visualizing the similarity between voxel time-courses in different TWISTER runs, including example prepocessed data from a visuomotor task. 
+This is a Matlab code  (Just tested on Matlab R2024a) and it has some dependencies:
+
+- [Statistics and Machine Learning Toolbox](https://uk.mathworks.com/products/statistics.html)
+- [Image Processing Toolbox](https://uk.mathworks.com/products/image-processing.html)
+- [fdr_bh](https://www.mathworks.com/matlabcentral/fileexchange/27418-fdr_bh) by David Groppe
+- [smoothn](https://uk.mathworks.com/matlabcentral/fileexchange/25634-smoothn) by Damien Garcia
+- [Tools for NIfTI and ANALYZE image](https://uk.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-analyze-image) by Jimmy Shen
+
+Running Main.m should run the analysis and start an interactive visualization. You can navigate to different voxels by clicking on points in the scatterplot or in the brain images, and hit Enter.
