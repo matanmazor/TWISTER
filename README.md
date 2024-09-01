@@ -18,3 +18,5 @@ This is a Matlab code  (last tested on Matlab R2024a) and it has some dependenci
 - [Tools for NIfTI and ANALYZE image](https://uk.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-analyze-image) by Jimmy Shen
 
 `analysis/Main.m` should run the analysis and start an interactive visualization. You can navigate to different voxels by clicking on points in the scatterplot or in the brain images, and hit Enter.
+
+![Matlab interactive visualization](/interactive.png)
