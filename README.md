@@ -1,6 +1,6 @@
 # TWISTER
 
-## Matan Mazor 🤚🔴 & Roy Mukamel 🟦🦶
+## Matan Mazor 🔴 & Roy Mukamel 🟦
 
 A TWISTER experiment is comprised of four experimental runs of equal duration: A1, B1, A2 and B2. The experiment is created in two steps. First, run A1 is formed by randomly dispersing a fixed number of events along a temporal interval of a predefined duration. This step is executed separately for each participant. Second, the three remaining runs are created by taking run A1 as a reference and twisting the events along the first dimension (B1), the second dimension (A2), or both (B2). The resulting four runs can be used in random order. 
 
@@ -19,4 +19,4 @@ This is a Matlab code  (last tested on Matlab R2024a) and it has some dependenci
 
 `analysis/Main.m` should run the analysis and start an interactive visualization. You can navigate to different voxels by clicking on points in the scatterplot or in the brain images, and hit Enter.
 
-![Matlab interactive visualization](/interactive.png)
+![Matlab interactive visualization](/interactive_white_bg.png)
