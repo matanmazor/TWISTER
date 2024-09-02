@@ -1,4 +1,4 @@
-# TWISTER
+# TWISTER: a Randomization-Based, Model-Free Approach to Functional Neuroimaging
 
 ## Matan Mazor 🔴 & Roy Mukamel 🟦
 
