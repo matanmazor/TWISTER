@@ -20,3 +20,6 @@ This is a Matlab code  (last tested on Matlab R2024a) and it has some dependenci
 `analysis/Main.m` should run the analysis and start an interactive visualization. You can navigate to different voxels by clicking on points in the scatterplot or in the brain images, and hit Enter.
 
 ![Matlab interactive visualization](/interactive.gif)
+
+![Figure 2 from the paper, showing analysis results from one subject](/figure2small.png)
+
