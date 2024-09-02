@@ -21,5 +21,4 @@ This is a Matlab code  (last tested on Matlab R2024a) and it has some dependenci
 
 ![Matlab interactive visualization](/interactive.gif)
 
-![Figure 2 from the paper, showing analysis results from one subject](/figure2small.png)
 
